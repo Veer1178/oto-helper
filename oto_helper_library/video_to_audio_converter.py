@@ -4,7 +4,7 @@ This function is used to convert the passed video file into a audio file for fur
 
 """
 
-
+"""We use *args and **kwargs as an argument when we have no doubt about the number of arguments we should pass in a function"""
 def extract_audio(video_file_name, audio_output_file=audio.mp3, *args, **kwargs):
 
     """
